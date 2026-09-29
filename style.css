@@ -1,0 +1,14 @@
+:root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #101827; color: #f4f7fb; }
+.card { width: min(92vw, 680px); padding: 48px; border: 1px solid #2c3b52; border-radius: 20px; background: #172235; box-shadow: 0 24px 70px #02060d88; }
+.eyebrow { margin: 0; color: #66e3c4; font-size: .78rem; font-weight: 800; letter-spacing: .15em; }
+h1 { margin: 10px 0; font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.05; }
+.intro { color: #b8c4d6; margin-bottom: 32px; }
+label { display: block; margin-bottom: 8px; font-weight: 700; }
+.form-row { display: flex; gap: 10px; }
+input { min-width: 0; flex: 1; border: 1px solid #42536d; border-radius: 9px; padding: 14px; font: inherit; color: inherit; background: #0d1522; }
+button { border: 0; border-radius: 9px; padding: 0 19px; font: inherit; font-weight: 800; color: #09251f; background: #66e3c4; cursor: pointer; }
+.message { min-height: 1.5em; color: #d6dfed; overflow-wrap: anywhere; }
+a { color: #8feeda; }
+@media (max-width: 520px) { .card { padding: 28px; } .form-row { flex-direction: column; } button { padding: 14px; } }
